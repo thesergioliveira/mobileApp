@@ -24,10 +24,13 @@ header div{
 .logo{
     width: 25vw;
     height: 10vh;
+    min-width: 6.5rem;
+    max-width: 13.26rem;
     margin: 4rem 109 auto;
     position: absolute;
     top: 6vh;
     left: 14vw;
+    transition: 400ms;
 }
 
 /* Navigation */
@@ -49,6 +52,12 @@ ul li{
 ul li a{
     text-decoration: none;
     color: white;
+    transition: 400ms;
+}
+
+a:hover, .logo:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
 }
 
 
