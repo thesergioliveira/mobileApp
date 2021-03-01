@@ -24,7 +24,7 @@ header div{
 .logo{
     width: 25vw;
     height: 10vh;
-    min-width: 6.5rem;
+    min-width: 8.88rem;
     max-width: 13.26rem;
     margin: 4rem 109 auto;
     position: absolute;
@@ -67,16 +67,16 @@ a:hover, .logo:hover{
     height: 25vh;
     margin: auto 7rem auto 7rem ;
     position: absolute;
-    bottom: 45vh 
+    top: 28vh 
 }
 h1{
-    font-size: 2.4rem;
+    font-size: 5vw;
     color: white;
     margin: 1.4rem;
 }
 
 .text{
-    font-size: 0.9rem;
+    font-size: 2vw;
     color: white;
     margin: 0.6rem;
     padding-left: 0.6rem;
@@ -116,6 +116,10 @@ h1{
 
 
 /* side image */
+
+.iphone{
+    border: 2px solid black;
+}
 
 [alt^="white"]{
     width: 20vw;
