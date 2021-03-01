@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    
+}
+
+body{
+    background-image: url(../images/bg_001.jpg);
+    
+}
+
+header div{
+    display: inline-block;
+}
+
+/* Logo */
+.logo{
+    width: 25vw;
+    height: 10vh;
+    margin: 4rem 109 auto;
+    position: absolute;
+    top: 6vh;
+    left: 14vw;
+}
+
+/* Navigation */
+
+ul{
+    position: absolute;
+    top: 10vh;
+    right: 14vw;
+}
+
+ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Main content and buttons */
+.main-content {
+    width: 50vw;
+    height: 25vh;
+    margin: 0;
+    position: absolute;
+    bottom: 45vh 
+}
+.b-one{
+    background-color: rgb(64, 160, 64);
+    color: white;
+    padding: 0.8rem;
+    width: 30%;
+    border-radius: 5%;
+    border:white;
+    border-color: none;
+}
+.b-two{
+    background-color: rgb(41, 156, 209);
+    color: white;
+    padding: 0.8rem;
+    width: 30%;
+    border-radius: 5%;
+    border:white;
+    border-color: none;
+}
+
+
+/* side image */
+
+[alt^="white"]{
+    width: 20vw;
+    position: absolute;
+    bottom: 18vh;
+    right:6.6vw;
+    z-index: -1;
+    
+}
+
+[alt^="black"]{
+    width: 20vw;
+    position: absolute;
+    bottom: 16vh;
+    right:15vw;
+    z-index: 1;
+    
+}
+
+
+
+
+
