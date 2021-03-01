@@ -47,27 +47,43 @@ ul li{
 .main-content {
     width: 50vw;
     height: 25vh;
-    margin: 0;
+    margin: auto 7rem auto 7rem ;
     position: absolute;
     bottom: 45vh 
 }
+h1{
+    font-size: 2.4rem;
+    color: white;
+}
+
+div div {
+    font-size: 1.1rem;
+    color: white;
+}
+
+
 .b-one{
     background-color: rgb(64, 160, 64);
     color: white;
-    padding: 0.8rem;
-    width: 30%;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.4rem;
+    width: 42%;
     border-radius: 5%;
     border:white;
     border-color: none;
+    margin-top: 1.8rem;
+    
 }
 .b-two{
     background-color: rgb(41, 156, 209);
     color: white;
+    font-size: 1.1rem;
     padding: 0.8rem;
-    width: 30%;
+    width: 42%;
     border-radius: 5%;
     border:white;
     border-color: none;
+    margin-left: 0.7rem;
 }
 
 
