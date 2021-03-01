@@ -5,11 +5,14 @@
 }
 
 :root{
+    background-image: url(../images/bg_001.jpg);
+    background-repeat: no-repeat;
     
 }
 
 body{
-    background-image: url(../images/bg_001.jpg);
+
+  
     
 }
 
@@ -30,14 +33,20 @@ header div{
 /* Navigation */
 
 ul{
+    width: 45vw;
     position: absolute;
     top: 10vh;
-    right: 14vw;
+    right: 8vw;
 }
 
 ul li{
-    display: inline;
     list-style-type: none;
+    display: inline;
+    margin: 0.3rem;
+    font-size: 0.8rem;
+}
+
+ul li a{
     text-decoration: none;
     color: white;
 }
@@ -45,7 +54,7 @@ ul li{
 
 /* Main content and buttons */
 .main-content {
-    width: 50vw;
+    width: 40vw;
     height: 25vh;
     margin: auto 7rem auto 7rem ;
     position: absolute;
@@ -54,36 +63,46 @@ ul li{
 h1{
     font-size: 2.4rem;
     color: white;
+    margin: 1.4rem;
 }
 
-div div {
-    font-size: 1.1rem;
+.text{
+    font-size: 0.9rem;
     color: white;
+    margin: 0.6rem;
+    padding-left: 0.6rem;
 }
-
 
 .b-one{
     background-color: rgb(64, 160, 64);
     color: white;
-    font-size: 1.1rem;
-    padding: 0.8rem 1.4rem;
+    font-size: 0.8rem;
+    padding: 0.9rem 0.5rem;
     width: 42%;
     border-radius: 5%;
     border:white;
     border-color: none;
     margin-top: 1.8rem;
+    border-left: 0.6rem;
+    transition: 400ms;
     
 }
 .b-two{
     background-color: rgb(41, 156, 209);
     color: white;
-    font-size: 1.1rem;
-    padding: 0.8rem;
+    font-size: 0.8rem;
+    padding: 0.9rem 0.5rem;
     width: 42%;
     border-radius: 5%;
     border:white;
     border-color: none;
     margin-left: 0.7rem;
+    transition: 400ms;
+}
+
+.b-one:hover, .b-two:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
 }
 
 
@@ -92,7 +111,7 @@ div div {
 [alt^="white"]{
     width: 20vw;
     position: absolute;
-    bottom: 18vh;
+    top: 26vh;
     right:6.6vw;
     z-index: -1;
     
@@ -101,8 +120,8 @@ div div {
 [alt^="black"]{
     width: 20vw;
     position: absolute;
-    bottom: 16vh;
-    right:15vw;
+    top: 27vh;
+    right:16vw;
     z-index: 1;
     
 }
