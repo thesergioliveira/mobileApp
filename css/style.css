@@ -24,7 +24,7 @@ header div{
 .logo{
     width: 25vw;
     height: 10vh;
-    min-width: 8.88rem;
+    min-width: 6.25rem;
     max-width: 13.26rem;
     margin: 4rem 109 auto;
     position: absolute;
@@ -46,7 +46,7 @@ ul li{
     list-style-type: none;
     display: inline;
     margin: 0.3rem;
-    font-size: 0.8rem;
+    font-size: 1.5vw;
 }
 
 ul li a{
@@ -62,13 +62,15 @@ a:hover, .logo:hover{
 
 
 /* Main content and buttons */
-.main-content {
-    width: 40vw;
-    height: 25vh;
-    margin: auto 7rem auto 7rem ;
+ .main-content {
+    float:left;
+    width: 50vw;
     position: absolute;
-    top: 28vh 
-}
+    top: 22vh;
+    margin: auto 2rem;
+
+} 
+
 h1{
     font-size: 5vw;
     color: white;
@@ -116,10 +118,6 @@ h1{
 
 
 /* side image */
-
-.iphone{
-    border: 2px solid black;
-}
 
 [alt^="white"]{
     width: 20vw;
