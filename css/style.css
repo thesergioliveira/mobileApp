@@ -10,12 +10,6 @@
     
 }
 
-body{
-
-  
-    
-}
-
 header div{
     display: inline-block;
 }
@@ -25,12 +19,12 @@ header div{
     width: 25vw;
     height: 10vh;
     min-width: 6.25rem;
-    max-width: 13.26rem;
+    max-width: 14.26rem;
     margin: 4rem 109 auto;
     position: absolute;
     top: 6vh;
     left: 14vw;
-    transition: 400ms;
+    transition: 600ms;
 }
 
 /* Navigation */
@@ -64,13 +58,15 @@ a:hover, .logo:hover{
  .main-content {
     float:left;
     width: 50vw;
+    height:50vh;
     position: absolute;
     top: 22vh;
     margin: auto 2rem;
 
 } 
 
-h1{
+h1{ 
+    width: 80%;
     font-size: 5vw;
     color: white;
     margin: 1.4rem;
@@ -133,8 +129,17 @@ h1{
     top: 27vh;
     right:16vw;
     z-index: 1;
+    transition: 250ms;
     
 }
+
+main div img:hover{
+    opacity: 0.9;
+    transform: scale(1.10);
+    z-index: 1;
+
+}
+
 
 
 
