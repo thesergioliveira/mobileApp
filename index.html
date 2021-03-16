@@ -11,7 +11,7 @@
 <body>
     <header>
         <div><img class="logo" src="./images/logo_001.png" alt="Clear the air logo"></div>
-        <div>
+        <div class="side-menu">
             <ul>
                 <li><a href="">PRODUCTS</a></li>
                 <li><a href="">PRICES</a></li>
@@ -52,7 +52,18 @@
 
 
 
-
+<script>
+    let clicked = false;
+    document.querySelector(".hamburguer").addEventListener("click", ()=> {
+        clicked = !clicked;
+        console.log(clicked);
+        if (clicked){
+            document.querySelector("side-menu").style.cssText = "display: block; position: absolute; top: 3vh; left: 0; z-index: 1;"
+        } else {
+            document.querrySelector(".side-menu").style.cssText = "display: none; "
+        }
+    })
+</script>
 </body>
 
 </html>
