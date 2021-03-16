@@ -26,14 +26,9 @@ main {
 
 /* Logo */
 .logo {
-  width: 25vw;
-  height: 10vh;
+  width: 20vw;
   min-width: 6.25rem;
   max-width: 14.26rem;
-  margin: 4rem 109 auto;
-  /* position: absolute;
-  top: 6vh;
-  left: 14vw; */
   transition: 600ms;
 }
 
@@ -54,10 +49,7 @@ main {
 }
 
 ul {
-  width: 45vw;
-  /* position: absolute;
-  top: 10vh;
-  right: 8vw; */
+  width: 35vw;
 }
 
 ul li {
@@ -80,24 +72,21 @@ a:hover,
 }
 
 /* Main content and buttons */
+
 .main-content {
-  /* float: left;
   width: 50vw;
-  height: 50vh;
-  position: absolute;
-  top: 22vh;
-  margin: auto 2rem; */
+  border: 2px red dashed;
 }
 
 h1 {
   width: 80%;
-  font-size: 3vw;
+  font-size: 2rem;
   color: white;
   margin: 1.4rem;
 }
 
 .text {
-  font-size: 2vw;
+  font-size: 0.8rem;
   color: white;
   margin: 0.6rem;
   padding-left: 0.6rem;
@@ -139,14 +128,15 @@ h1 {
 
 .iphone {
   display: flex;
+  border: 2px solid red;
 }
 
 [alt^="white"] {
   width: 15.78vw;
   height: 58vh;
   /* position: absolute;
-  top: 26vh;
-  right: 6.6vw; */
+  top: 2px;
+  right: 4px; */
   z-index: -1;
 }
 
@@ -154,8 +144,8 @@ h1 {
   width: 15.78vw;
   height: 58vh;
   /* position: absolute;
-  top: 27vh;
-  right: 16vw; */
+  top: 3px;
+  right: 8px; */
   z-index: 1;
   transition: 250ms;
 }
