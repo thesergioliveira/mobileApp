@@ -54,21 +54,6 @@ header {
   align-items: center;
 }
 
-/* menu version for mobile */
-.hamburguer {
-  display: none;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  width: 3rem;
-  height: 3rem;
-}
-
-.hamburguer div {
-  width: 2.5rem;
-  border: 2px black solid;
-}
-
 /* general layout for the menu elements */
 ul {
   width: 35vw;
@@ -210,15 +195,4 @@ main div img:hover {
   opacity: 0.9;
   transform: scale(1.1);
   z-index: 1;
-}
-
-/* media query with the breakout points */
-
-@media only screen and (max-width: 600px) {
-  .hamburguer {
-    display: flex;
-    position: absolute;
-    top: 2%;
-    right: 4%;
-  }
 }
