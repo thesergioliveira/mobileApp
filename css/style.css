@@ -10,7 +10,6 @@
   padding: 0;
 }
 
-/* general layout of the page */
 :root {
   background-image: url(../images/bg_001.jpg);
   background-repeat: no-repeat;
@@ -26,31 +25,26 @@ body {
   flex-direction: column;
 }
 
+/* navigation part of the page */
+
+/* general layout */
 header {
-  width: 75%;
+  width: 85%;
   margin: 1rem auto;
   border: 3px solid green;
   display: flex;
-  justify-content: space-between;
-}
-main {
-  width: 60%;
-  height: 60%;
-  border: 2px solid pink;
-  display: flex;
-  margin: 1rem auto;
   justify-content: space-between;
 }
 
 /* Logo */
 .logo {
   width: 20vw;
-  min-width: 6.25rem;
+  min-width: 2r 6.25rem;
   max-width: 14.26rem;
   transition: 600ms;
 }
 
-/* Navigation */
+/* menu */
 
 .side-menu {
   margin: 0;
@@ -60,6 +54,7 @@ main {
   align-items: center;
 }
 
+/* menu version for mobile */
 .hamburguer {
   display: none;
   justify-content: space-evenly;
@@ -74,6 +69,7 @@ main {
   border: 2px black solid;
 }
 
+/* general layout for the menu elements */
 ul {
   width: 35vw;
   display: flex;
@@ -84,7 +80,7 @@ ul {
 ul li {
   list-style-type: none;
   margin: 0.3rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 ul li a {
@@ -94,33 +90,49 @@ ul li a {
   text-align: center;
 }
 
+/* hover effects on the menu */
+
 a:hover,
 .logo:hover {
   opacity: 0.6;
   transform: scale(1.05);
 }
 
+/* content part of the page */
+/* general */
+main {
+  width: 85%;
+  height: 70%;
+  border: 2px solid pink;
+  display: flex;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+
 /* Main content and buttons */
 
 .main-content {
-  width: 40%;
-  height: 100%;
+  width: 50%;
+  height: 70%;
+  margin: auto;
   border: 2px red dashed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
+/* heading */
 h1 {
-  width: 80%;
+  border: 2px dashed yellow;
   font-size: 1.8rem;
   color: white;
-  margin: 1.4rem;
   text-align: center;
 }
 
+/* main content text */
+
 .text {
+  border: 2px dashed yellow;
   font-size: 0.8rem;
   color: white;
   margin: 0.6rem;
@@ -129,6 +141,7 @@ h1 {
 
 /* layout and design for the buttons */
 main section:nth-child(3) {
+  height: 33%;
   border: 2px solid red;
   display: flex;
   justify-content: space-evenly;
@@ -157,6 +170,7 @@ main section:nth-child(3) {
   transition: 400ms;
 }
 
+/* hover effects on the buttons */
 .b-one:hover,
 .b-two:hover {
   opacity: 0.6;
@@ -168,6 +182,8 @@ main section:nth-child(3) {
 .iphone {
   border: 2px solid red;
   width: 40%;
+  height: 100%;
+  margin: auto;
   position: relative;
 }
 
@@ -183,17 +199,20 @@ main section:nth-child(3) {
 [alt^="black"] {
   width: 65%;
   position: absolute;
-  top: 20px;
-  left: 6px;
+  top: 30px;
+  left: 10px;
   z-index: 1;
   transition: 250ms;
 }
 
+/* hover effects on the side images */
 main div img:hover {
   opacity: 0.9;
   transform: scale(1.1);
   z-index: 1;
 }
+
+/* media query with the breakout points */
 
 @media only screen and (max-width: 600px) {
   .hamburguer {
