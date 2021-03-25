@@ -25,7 +25,10 @@
           alt="Clear the air logo"
         />
       </div>
-      <div class="side-menu">
+      <button onclick="showMenu()">
+        <i class="fas fa-hamburger icons"></i>
+      </button>
+      <nav class="side-menu main-nav" id=" menuBox">
         <ul>
           <li><a href="">PRODUCTS</a></li>
           <li><a href="">PRICES</a></li>
@@ -34,7 +37,7 @@
           <li><a href="">LOGIN</a></li>
           <li><a href="">SIGN UP</a></li>
         </ul>
-      </div>
+      </nav>
       <div class="hamburguer">
         <div></div>
         <div></div>
@@ -67,6 +70,16 @@
     </main>
 
     <script>
+      const showMenu = () => {
+        if (menuBox.style.display == "none") {
+          menuBox.style.display = "block";
+        } else {
+          menuBox.style.display = "none";
+        }
+      };
+    </script>
+
+    <!-- <script>
       let clicked = false;
       document.querySelector(".hamburguer").addEventListener("click", () => {
         clicked = !clicked;
@@ -79,6 +92,6 @@
             "display: none; ";
         }
       });
-    </script>
+    </script> -->
   </body>
 </html>

@@ -74,6 +74,9 @@ ul li a {
   transition: 400ms;
   text-align: center;
 }
+button {
+  display: none;
+}
 
 /* hover effects on the menu */
 
