@@ -11,16 +11,17 @@
 }
 
 :root {
+  // border: 2px solid red;
   width: 100vw;
   height: 100vh;
   background-image: url(../images/bg_001.jpg);
   background-repeat: no-repeat;
-  background-size: 100vh 100vw;
+  background-size: cover;
   font-family: "nanumGothic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  /* border: 2px solid yellow; */
+  // border: 2px solid yellow;
   width: 75%;
   height: 80vh;
   margin: auto;

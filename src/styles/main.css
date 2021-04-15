@@ -185,12 +185,11 @@ main div img:hover {
   height: 100vh;
   background-image: url(../images/bg_001.jpg);
   background-repeat: no-repeat;
-  background-size: 100vh 100vw;
+  background-size: cover;
   font-family: "nanumGothic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  /* border: 2px solid yellow; */
   width: 75%;
   height: 80vh;
   margin: auto;
