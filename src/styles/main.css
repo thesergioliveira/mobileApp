@@ -1,3 +1,19 @@
+/* Error: It's not clear which file to import. Found:
+ *   src/scss/_main.scss
+ *   src/scss/main.scss
+ *   ,
+ * 3 | @import "./main";
+ *   |         ^^^^^^^^
+ *   '
+ *   src/scss/main.scss 3:9  root stylesheet */
 
-
-/*# sourceMappingURL=main.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: It's not clear which file to import. Found:\a   src/scss/_main.scss\a   src/scss/main.scss\a   \2577 \a 3 \2502  @import \"./main\";\a   \2502          ^^^^^^^^\a   \2575 \a   src/scss/main.scss 3:9  root stylesheet";
+}
