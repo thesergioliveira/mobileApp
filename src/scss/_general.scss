@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "nanumGothic";
+  src: url("/fonts/NanumGothic-Regular.ttf");
+  src: url("/fonts/NanumGothic-Bold.ttf");
+  src: url("/fonts/NanumGothic-ExtraBold.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-image: url(../images/bg_001.jpg);
+  background-repeat: no-repeat;
+  font-family: "nanumGothic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  /* border: 2px solid yellow; */
+  width: 75%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}

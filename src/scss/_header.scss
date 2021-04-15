@@ -1,0 +1,58 @@
+/* general layout */
+header {
+  width: 85%;
+  margin: 1rem auto;
+  /* border: 3px solid green; */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  width: 20vw;
+  min-width: 2r 6.25rem;
+  max-width: 14.26rem;
+  transition: 600ms;
+}
+
+/* menu */
+
+.side-menu {
+  margin: 0;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* general layout for the menu elements */
+ul {
+  width: 35vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0.3rem;
+  font-size: 0.7rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 400ms;
+  text-align: center;
+}
+button {
+  display: none;
+}
+
+/* hover effects on the menu */
+
+a:hover,
+.logo:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
