@@ -11,8 +11,11 @@
 }
 
 :root {
+  width: 100vw;
+  height: 100vh;
   background-image: url(../images/bg_001.jpg);
   background-repeat: no-repeat;
+  background-size: 100vh 100vw;
   font-family: "nanumGothic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
