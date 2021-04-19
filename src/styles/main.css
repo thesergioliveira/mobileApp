@@ -66,6 +66,13 @@ main {
   margin: 1rem auto;
   justify-content: space-between;
 }
+main section section {
+  height: 33%;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 /* Main content and buttons */
 .main-content {
@@ -96,14 +103,6 @@ h1 {
 }
 
 /* layout and design for the buttons */
-main section:nth-child(3) {
-  height: 33%;
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 .b-one {
   background-color: #40a040;
   color: white;
